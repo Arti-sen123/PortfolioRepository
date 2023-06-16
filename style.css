@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+}
+.top-box{
+    height: 60px;
+    background-color: rgb(54, 87, 87);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.top-box h1{
+    color: white;
+}
+.navigation-box{
+    width: 800px;
+    height: 60px;
+}
+.navigation-box ul{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation-box ul li{
+    list-style: none;
+    font-size: 20px;
+    color: white;
+}
+.about-box{
+    height: 600px;
+    background-color: black;
+    
+}
+.about-box h1{
+    /*border: 2px solid white;*/
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+    
+    
+}
+.about-row{
+    /*border: 2px solid white;*/
+    height: 400px;
+    width: 1100px;
+    margin: auto;
+    display: flex;
+}
+.about-col{
+    margin-top: 30px;
+    /*border: 2px solid yellow;*/
+    width: 45%;
+    height: 100%;
+    /*display: flex;
+    justify-content: center;*/
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+.about-col img{
+    height: 100%;
+    margin-left: 100px;
+}
+.Project{
+    height: 800px;
+    background-color: gray;
+}
+.Project h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    text-decoration: underline;
+    /*font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+}
+.Project ul{
+    font-size: 30px;
+    margin-left: 100px;
+}
+.Project ul li{
+    margin-top: 20px;
+}
+.Achievement{
+    height: 600px;
+    background-color: black;
+    color: rgb(13, 73, 13);
+    padding: 60px;
+    
+
+}
+.Achievement h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    
+}
+.Achievement ul{
+    font-size: 20px;
+    margin-top: 20px;
+    color: white;
+    
+}
+.Contacts{
+    height: 540px;
+    background-color: #EDEDED;
+}
+.Contacts h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
+.Contact-form{
+    background-color: black;
+    height: 420px;
+    width: 500px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+}
+form{
+    font-family:Arial, Helvetica, sans-serif ;
+    color: white;
+    font-size: 20px;
+    
+}
+input{
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px, 30px;
+    font-size: 20px;
+}
+table{
+    color: white;
+}
+table td{
+    /*border: 2px solid white;*/
+    padding: 20px;
+}
+label{
+    font-size: 20px;
+}
+textarea{
+    border-radius: 10px;
+}
+button{
+    font-size: 20px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: aquamarine; 
+    
+    
+}
+.social-media{
+    background-color: rgb(54, 87, 87);
+    padding: 20px;
+
+}
+.social-media td{
+    border-right: 1px solid white;
+    padding: 0px 60px ;
+    justify-content: space-between;
+}
+.social-media table td:last-child{
+    border-right: none;
+}
+.social-media table{
+    margin: 0px;
+}
+footer{
+    background-color: black;
+    height: 50px;
+    color: white;
+    padding: 10px;
+}
+.navigation-box ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
